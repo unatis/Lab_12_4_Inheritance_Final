@@ -1,7 +1,11 @@
 package com.company;
 
-public class Bird extends Animal{
+public class Birds extends Animal {
 
-    public String BirdType;
+    public String BirdName = "";
+
+    /*public void SomeFunc(){
+        System.out.println("child");
+    }*/
 
 }
