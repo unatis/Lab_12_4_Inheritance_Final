@@ -1,6 +1,11 @@
 package com.company;
 
-public final class Animal {
+public class Animal {
 
-    public String AnimalName = "";
+    public final String AnimalName = "xxx";
+
+    public final void SomeFunc(){
+        System.out.println("parent");
+    }
+
 }
